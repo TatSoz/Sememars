@@ -43,7 +43,7 @@ void CreateArray(int[,,] array3D)
   }
 }
 
-void WriteArray (int[,,] array3D)
+void PrintArray (int[,,] array3D)
 {
   for (int i = 0; i < array3D.GetLength(0); i++)
   {
@@ -68,4 +68,4 @@ int z = int.Parse(Console.ReadLine());
 
 int[,,] array3D = new int[x, y, z];
 CreateArray(array3D);
-WriteArray (array3D);
+PrintArray (array3D);
